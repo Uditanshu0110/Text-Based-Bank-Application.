@@ -12,6 +12,10 @@ public class Bank_Application1 {
 			
 			
 			for(;true;) {
+				try {
+					Thread.sleep(1200);    //time delay for 1200 milliseconds.
+				} catch (InterruptedException e) {
+				}
 			System.out.println("Bank Admin Menu:");
 			System.out.println("---------------\n");
 			System.out.println("Please enter a menu option: ");
